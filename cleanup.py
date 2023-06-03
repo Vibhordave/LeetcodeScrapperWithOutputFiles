@@ -17,8 +17,16 @@ def remove_elements_with_pattern(array, pattern):
             pass
     return new_array
 
+def initials(array):
+    new_array=[]
+    for ele in array:
+        ele = "https://leetcode.com" + ele
+        new_array.append(ele)
+    return new_array
+
 
 arr = remove_elements_with_pattern(arr, "/solution")
+arr=initials(arr)
 print(len(arr))
 arr = list(set(arr))
 
