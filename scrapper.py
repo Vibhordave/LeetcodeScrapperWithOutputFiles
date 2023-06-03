@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 
 # Set up Selenium webdriver
 # Define the webdriver service
-s = Service("/usr/local/bin/chromedriver")   
+s = Service("chromedriver")   
 
 # Intantiate the webdriver
 driver = webdriver.Chrome(service = s)  # You may need to provide the path to your chromedriver executable
