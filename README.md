@@ -12,21 +12,22 @@ To set up the project, follow these steps:
 
 
 # Usage
-After completing the setup, you can run the project by executing the main script (main.py). This script serves as the entry point for the application.
+After completing the setup, you can run the project by executing the run script (run.py). This script serves as the entry point for the application.
+If any individual part is to be run then checkout the branch.
 
 # Problems Experienced Along with their solutions
 
-1. For the Scrapping part the most difficult problem faced was reloading of page 1 even though webdriver was trying to load page 2 which caused wrong data to be scrapped.
+1. One of the major challenges encountered during the web scraping process was the issue of the page reloading. Despite the webdriver attempting to load page 2, it resulted in page 1 being reloaded, leading to the extraction of incorrect data.
 
-**Solution:** After a lot of research and trying of various methods, the best method was to rather make the webdriver click the next button rather that directly loading the link. I tried to find any possible cause however nothing came up.
+**Solution:** After extensive research and experimentation with different approaches, the most effective solution was to utilize a method where the webdriver clicks the next button instead of directly loading the link. Despite thorough investigation, no specific cause for the issue could be identified.
 
-2. The second most problematic portion was to understand the os library. As opening directly a file was causing problem as I was forced to write local address which wasn't efficient at all.
+2. The second most challenging aspect was grasping the usage of the os library. Opening a file directly by specifying a local address proved to be problematic and inefficient.
 
-**Solution:** At this point os was the library that came handy. **cur_dir = os.path.dirname(os.path.abspath(__file__))** command allowed me to find the current path and use it to go to its parent using **os.path.join(current_dir, "..")** which can be used to go to any other sibling directories.
+**Solution:** At this stage, the os library proved to be invaluable. Utilizing the **cur_dir = os.path.dirname(os.path.abspath(__file__))** command enabled me to determine the current path and use it to navigate to its parent directory using **os.path.join(current_dir, "..")**. This functionality facilitated accessing any other sibling directories within the project.
 
-3. I also found implementation of **TF-IDF Algorithm** very tough.
+3. I encountered significant challenges while implementing the **TF-IDF (Term Frequency-Inverse Document Frequency) algorithm**.
 
-**Solution:** I used the following [link](https://medium.com/nlplanet/two-minutes-nlp-learn-tf-idf-with-easy-examples-7c15957b4cb3) to read about the same.
+**Solution:** I used the [link](https://medium.com/nlplanet/two-minutes-nlp-learn-tf-idf-with-easy-examples-7c15957b4cb3) to read about the same.
 
 
 **The Above project has been created for education purposes only.**
