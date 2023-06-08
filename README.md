@@ -17,13 +17,16 @@ After completing the setup, you can run the project by executing the main script
 # Problems Experienced Along with their solutions
 
 1. For the Scrapping part the most difficult problem faced was reloading of page 1 even though webdriver was trying to load page 2 which caused wrong data to be scrapped.
+
 **Solution:** After a lot of research and trying of various methods, the best method was to rather make the webdriver click the next button rather that directly loading the link. I tried to find any possible cause however nothing came up.
 
 2. The second most problematic portion was to understand the os library. As opening directly a file was causing problem as I was forced to write local address which wasn't efficient at all.
+
 **Solution:** At this point os was the library that came handy. **cur_dir = os.path.dirname(os.path.abspath(__file__))** command allowed me to find the current path and use it to go to its parent using **os.path.join(current_dir, "..")** which can be used to go to any other sibling directories.
 
 3. I also found implementation of **TF-IDF Algorithm** very tough.
-**Solution:** I used the following [link]([https://example.com](https://medium.com/nlplanet/two-minutes-nlp-learn-tf-idf-with-easy-examples-7c15957b4cb3)) to read about the same.
+
+**Solution:** I used the following [link](https://medium.com/nlplanet/two-minutes-nlp-learn-tf-idf-with-easy-examples-7c15957b4cb3) to read about the same.
 
 
 **The Above project has been created for education purposes only.**
