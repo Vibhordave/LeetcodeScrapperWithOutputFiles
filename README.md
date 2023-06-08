@@ -1,4 +1,4 @@
-# LeetcodeScrapperWithOutputFiles
+# Leetcode Scrapper With Output Files
 
 # Description
 The main branch serves as the primary branch of the project and contains the setup details and the chromedriver.exe file. This branch provides the necessary resources and instructions for setting up the project.
