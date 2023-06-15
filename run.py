@@ -5,7 +5,7 @@ scrap=os.path.join(current_dir,"main_codes\\scrapper.py")
 clean=os.path.join(current_dir,"main_codes\\cleanup.py")
 explore=os.path.join(current_dir,"main_codes\\problem_explorer.py")
 prep=os.path.join(current_dir,"TF_IDF_CODES\\prepare.py")
-query=os.path.join(current_dir,"TF_IDF_CODES\\query.py")
+query=os.path.join(current_dir,"TF_IDF_CODES\\app.py")
 file_order = [scrap,clean,explore,prep,query]
 
 # Iterate over the files and run each one in order
