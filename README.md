@@ -30,4 +30,13 @@ If any individual part is to be run then checkout the branch.
   **Solution:** I used the [link](https://medium.com/nlplanet/two-minutes-nlp-learn-tf-idf-with-easy-examples-7c15957b4cb3) to read about the same.
 
 
+
+**Video:**
+
+
+https://github.com/Vibhordave/LeetcodeScrapperWithOutputFiles/assets/96631855/ae2b60c8-7125-4cfb-828f-8c09b7be7539
+
+
+**GitHub Repo Shown in Video:**
+https://github.com/Vibhordave/FinalRepoProject.git
   **The Above project has been created for education purposes only.**
